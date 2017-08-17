@@ -9,9 +9,22 @@ body {
     padding: 0;
 }
 
-/* banner style */
-.bunnerContainerFull {
+.mainContent .row {
+    padding-left: 15px;
+}
 
+/* banner style */
+.bunnerContainer {
+    align-content: center;
+}
+
+.bunnerContainer img {
+    display: block;
+    margin: auto;
+}
+
+.bunnerContainerFull {
+    padding: 0;
 }
 
 .bunnerContainerFull img{
@@ -154,6 +167,9 @@ body {
     width: 25%;
     min-height: 459px;
     position: relative;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-right: 0.01px;
 }
 
 .item.double {
@@ -203,11 +219,88 @@ body {
     background-position: left 9px;
     background-size: 12px;
 }
+/* medium item*/
+.medium .itemContent {
+    position: absolute;
+    bottom: 15px;
+    color: #ffffff;
+    width: 100%;
+    padding-right: 15px;
+}
+
+.medium .itemContent div {
+}
+
+.medium .topRow {
+    left: calc(50% - 20px);
+    max-width: 145px;
+    margin: 0 auto;
+    margin-bottom: 280px;
+}
+
+.medium .topRow div {
+    display: inline-block;
+    align-item: center;
+}
+
+.medium .itemLabel {
+    width: 30px;
+}
+
+.medium .itemDate {
+    width: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.medium .itemTags {
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.medium .itemTags span {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1px 5px;
+}
+
+.medium .itemTitle {
+    margin: auto;
+    text-align: center;
+    line-height: 20px;
+}
+
+.medium .itemTitle span {
+    font-size: 17px;
+    text-align: center;
+}
+
+.medium .itemDescription {
+    width: 212px;
+    margin: auto;
+}
+
+.medium .temDescription span {
+
+}
+
+.medium .itemViews {
+    width: 50px;
+    margin: auto;
+    text-align: right;
+    background-image: url("../assets/img/icon/eye.png");
+    background-repeat: no-repeat;
+    background-position: left 9px;
+    background-size: 12px;
+}
+
 
 /* double item */
 .double .itemContent {
     position: absolute;
-    bottom: 30px;
+    bottom: 15px;
     color: #ffffff;
     width: 100%;
 }
@@ -286,6 +379,342 @@ body {
     font-size: 12px;
     font-weight: bold;
 }
+
+/* pagination */
+
+.pagination {
+
+}
+
+.paginationContainer {
+    margin: 0 auto;
+}
+
+.paginationContainer span {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #bababa;
+    margin: 10px;
+    margin-right: 0;
+    padding-top: 2px;
+    text-align: center;
+}
+
+span.activPage {
+    background-color: #49a900;
+}
+
+span.nexPage {
+    padding-top: 0;
+    font-size: 30px;
+    position: relative;
+    top: 9px;
+    background-color: #535353;
+}
+
+span.nexPage i{
+    position: relative;
+    bottom: 7px;
+}
+
+span.endPage {
+    padding-top: 0;
+    font-size: 30px;
+    position: relative;
+    top: 9px;
+}
+
+span.endPage i{
+    position: relative;
+    bottom: 7px;
+}
+
+/* vacansy */
+
+.vacansyContainer {
+    border: 1px solid #60e100;
+    min-height: 444px;
+    padding: 17px;
+}
+
+.vacansyHeader {
+
+}
+
+.vacansyHeader i {
+    color: #60e100;
+    font-size: 10px;
+    position: relative;
+    bottom: 2px;
+}
+
+.vacansyHeader span {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #009900;
+}
+
+.vacansyHeader span {
+
+}
+
+.vaconsyItem {
+    width: 85%;
+    padding: 15px 0;
+    border-bottom: 1px solid #ebebeb;
+    line-height: 15px;
+}
+
+.vaconsyItem:last-child {
+    border: none;
+}
+
+.vaconsyItem span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.vacansyName {
+
+}
+
+.vacansyPosition {
+    color: #3a8700;
+    font-weight: bold;
+}
+
+/* heading */
+
+.heading .row {
+    padding: 0 15px ;
+}
+
+.heading .row h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* list items */
+.itemListContainer {
+
+}
+
+.itemListItem {
+    border-top: 1px solid #cecece;
+    overflow: hidden;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.itemListItem div {
+    float: left;
+}
+
+.itemContentIcon {
+    width: 10%;
+}
+
+.itemContentIcon img {
+
+}
+
+.itemListContentContainer {
+    width: 90%;
+    padding-left: 10px;
+
+}
+
+.itemListTitle {
+
+}
+
+.itemListTitle span {
+
+}
+
+.itemListStat {
+
+}
+
+.itemListEye {
+    color: #bbbbbb;
+    width: 43px;
+    text-align: right;
+    background-image: url(../assets/img/icon/eyeGrey.png);
+    background-repeat: no-repeat;
+    background-position: left 6px;
+    background-size: 12px;
+}
+
+.itemListEye span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* best for month */
+.bestMonthSingle {
+
+}
+
+.bestMonthSingle .itemImg {
+
+}
+
+.bestMonthSingle .itemImg img{
+    width: 100%;
+}
+
+.itemTitle {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.itemTitle span {
+
+}
+
+.bestMonthSingle .itemRow div {
+    display: inline-block;
+}
+
+.bestMonthSingle .itemTags {
+    margin-right: 10px;
+    color: #49b744;
+    text-transform: uppercase;
+}
+
+.bestMonthSingle .itemTags span {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.bestMonthSingle .itemViews {
+    color: #bbbbbb;
+    width: 43px;
+    text-align: right;
+    background-image: url(../assets/img/icon/eyeGrey.png);
+    background-repeat: no-repeat;
+    background-position: left 9px;
+    background-size: 12px;
+}
+
+.specialProgestContainer {
+
+}
+
+.specialProgestContainer img{
+    width: 100%;
+}
+
+.specialProgestContainer .itemContent{
+    padding-right: 30px;
+    bottom: 105px;
+}
+
+.specialProgestContainer .topRow {
+    max-width: 99px;
+    margin-bottom: 237px;
+}
+
+.specialProgestContainer .itemTags {
+    width: 100px;
+}
+
+.specialProgestContainer .itemDate {
+    width: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 auto;
+
+}
+
+.specialProgestContainer .itemTitle {
+    width:100%;
+}
+
+.specialProgestContainer .itemTitle span{
+    font-size: 20px;
+}
+
+.specialProgestContainer .itemViews {
+
+}
+
+/* specProgect progekt */
+
+.specProgect {
+
+}
+
+.specProgectContent {
+    position: relative;
+}
+
+.specProgectContent img {
+    width: 100%;
+}
+
+.specProgectContent .itemContent {
+    position: absolute;
+    bottom: 15px;
+    color: #ffffff;
+    width: 100%;
+}
+
+.specProgectContent .topRow {
+    left: calc(50% - 20px);
+    max-width: 134px;
+    margin: 0 auto;
+    margin-bottom: 190px;
+}
+
+.specProgectContent .itemLabel {
+    width: 30px;
+}
+
+.specProgectContent .itemDate {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.specProgectContent .itemTags {
+    width: 60px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.specProgectContent .itemTitle {
+    width: 385px;
+    margin: auto;
+    text-align: center;
+}
+
+.specProgectContent .itemDescription {
+
+}
+
+.specProgectContent .itemViews {
+
+}
+
+.specProgectContent .itemViews span{
+
+}
+
+
+
+
+
 
 
 
