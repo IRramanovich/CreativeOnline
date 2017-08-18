@@ -700,11 +700,18 @@ span.endPage i{
 }
 
 .specProgectContent .itemDescription {
-
+    width: 212px;
+    margin: auto;
 }
 
 .specProgectContent .itemViews {
-
+    width: 50px;
+    margin: auto;
+    text-align: right;
+    background-image: url(../assets/img/icon/eye.png);
+    background-repeat: no-repeat;
+    background-position: left 9px;
+    background-size: 12px;
 }
 
 .specProgectContent .itemViews span{
