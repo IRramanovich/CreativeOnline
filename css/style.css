@@ -664,9 +664,10 @@ span.endPage i{
 
 .specProgectContent .itemContent {
     position: absolute;
-    bottom: 15px;
+    bottom: 54px;
+    left: 633px;
     color: #ffffff;
-    width: 100%;
+    width: 40%;
 }
 
 .specProgectContent .topRow {
@@ -685,10 +686,11 @@ span.endPage i{
     font-weight: bold;
     font-size: 12px;
     margin-left: 10px;
+    text-align: center;
 }
 
 .specProgectContent .itemTags {
-    width: 60px;
+    width: 110px;
     margin: 0 auto;
     text-transform: uppercase;
 }
@@ -697,11 +699,15 @@ span.endPage i{
     width: 385px;
     margin: auto;
     text-align: center;
+    font-size: 25px;;
 }
 
 .specProgectContent .itemDescription {
-    width: 212px;
+    width: 343px;
     margin: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .specProgectContent .itemViews {
