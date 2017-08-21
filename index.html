@@ -5,6 +5,8 @@
     <title>By The Way</title>
 
     <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-ProximaNova.css">
+    <link href="http://allfont.ru/allfont.css?fonts=merriweather" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
@@ -18,7 +20,7 @@
            <img src="assets/img/bunner/fullBanner.jpg">
        </div>
        <header>
-           <div class="container">
+           <div class="container" id="mainMenuContainer">
                <div class="row">
                    <div class="col-1 logo">
                         <img src="assets/img/mainLogo.jpg">
@@ -862,7 +864,7 @@
                <h2>Лучшее за месяц</h2>
            </div>
            <div class="row">
-               <div class="col-8">
+               <div class="col-8 bestMonthContainer">
                    <div class="row">
                        <div class="col-3 bestMonthSingle">
                            <div class="itemImg">
@@ -1048,10 +1050,6 @@
                         <div class="itemTags">
                             <span>#спецпроект</span>
                         </div>
-
-                    </div>
-                    <div class="itemDate">
-                        <span>22 мая 2017</span>
                     </div>
                     <div class="itemTitle">
                         <span>Медовые миксы Jola от украинского агентства Tough Slate Design</span>
@@ -1068,49 +1066,110 @@
        <div class="container footer">
            <div class="row">
                <div class="col-4 socialMedia">
-                   <div>Подпишись</div>
-                   <div>
-                       <span class="facebook"></span>
-                       <span class="tweeter"></span>
-                       <span class="instagram"></span>
+                   <div class="socialLabel">Подпишись!</div>
+                   <div class="socialButtonContainer">
+                       <div class="facebook"></div>
+                       <div class="tweeter"></div>
+                       <div class="instagram"></div>
                    </div>
                </div>
                <div class="col-4 footerLogo">
-                   <div>Publishing house</div>
-                   <div>IdewMedia</div>
-                   <div>creative tehnology</div>
+                   <img src="assets/img/footerLogo.png">
                </div>
-               <div class="col-4">
-                   <div>Подписатся на рассылку</div>
-                   <div>
-                       <input type="text">
-                       <input type="button">
-                       <span>Включить уведомления. Спама не будет.</span>
+               <div class="col-4 subscribeContainer">
+                   <div class="subscriberLabel">Подписатся на рассылку</div>
+                   <div class="subsscribeContent">
+                       <input type="text" class="subscribeInputText" placeholder="Введите свой e-mail">
+                       <input type="button" class="subscribeButton" value="Подписаться">
+                       <div class="subscribeContentLibel"><span>Включить уведомления.</span> Спама не будет.</div>
                    </div>
-                   <div></div>
                </div>
            </div>
        </div>
    </div><!-- end wrapper -->
    <footer>
-       <div class="container">
+       <div class="container footerFullScreen">
            <div class="row">
-               <div class="col-4">
+               <div class="col-4 leftFooter">
                    <div>© 2017 BYTHEWAY. CREATIVE ONLINE</div>
                    <div> PUBLISHING HOUSE IDEW MEDIA BELARUS </div>
                </div>
-               <div class="col-4">
+               <div class="col-4 middleFooter">
                    <span>IDEW MEDIA belarus</span>
                    <span>ПРОЕКТЫ</span>
                    <span>КОНТАКТЫ</span>
                </div>
-               <div class="col-4">
+               <div class="col-4 rightFooter">
                    <div>ПРИ ЛЮБОМ ИСПОЛЬЗОВАНИИ МАТЕРИАЛОВ BTW.BY </div>
-                   <div> ССЫЛКА (ДЛЯ САЙТОВ -</div>
+                   <div> ССЫЛКА (ДЛЯ САЙТОВ - ГИПЕРССЫЛКА НА BWT.BY) ОБЯЗАТЕЛЬНА</div>
                </div>
            </div>
        </div>
    </footer>
+   <div id="fullMenu">
+       <div class="container">
+           <div class="menuContent">
+               <div class="mainFullMenu">
+                   <div class="fullmenuItem">новости</div>
+                   <div class="fullmenuItem">pro.обзор</div>
+                   <div class="fullmenuItem">кейсы</div>
+                   <div class="fullmenuItem">бизнес</div>
+                   <div class="fullmenuItem">технологии</div>
+                   <div class="fullmenuItem">интервью</div>
+                   <div class="fullmenuItem">фестиввали</div>
+               </div>
+               <div class="subFullMenu">
+                   <div class="fullmenuItem">цифра дня</div>
+                   <div class="fullmenuItem">фото дня</div>
+                   <div class="fullmenuItem">вакансии</div>
+               </div>
+               <div class="litleFullMenu">
+                   <div class="fullmenuItem">о проекте</div>
+                   <div class="fullmenuItem">фото дня</div>
+                   <div class="fullmenuItem">контакты</div>
+               </div>
+               <div class="socialFullMenu">
+                   <div class="facebook"></div>
+                   <div class="tweeter"></div>
+                   <div class="instagram"></div>
+               </div>
+
+           </div>
+       </div>
+   </div>
    <script type="application/javascript" src="skripts/jquery-3.2.1.js"></script>
+   <script type="application/javascript">
+       $(function(){
+
+           var elem = $('#mainMenuContainer');
+
+           $('.menuButton').on('click', function() {
+               $('#fullMenu').show();
+           });
+
+           $('#fullMenu').on('click', function () {
+               $(this).hide();
+           });
+
+           $(window).scroll(function(){
+
+               var top = window.pageYOffset;
+
+               var cl = elem[0].className;
+               if (top >= 116) {
+                   if ((cl.indexOf('fixedMenu') == -1)){
+                       elem[0].className += ' fixedMenu';
+                   }
+               } else if(top <= 116) {
+                   if (cl.indexOf('fixedMenu') !== -1){
+                       elem[0].className = elem[0].className.substr(0, 9);
+                   }
+               }
+           });
+
+
+
+       });
+   </script>
 </body>
 </html>
