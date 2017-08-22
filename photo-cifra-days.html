@@ -221,9 +221,9 @@
     <div class="container bunnerContainerFull">
         <img src="assets/img/bunner/fullBanner.jpg">
     </div>
-    <div class="container newsContent heading">
+    <div class="container newsContent newContent heading">
         <div class="row">
-            <h2>Новости</h2>
+            <h2>Новое</h2>
         </div>
         <div class="row">
             <div class="item single">
@@ -578,6 +578,27 @@
         </div>
     </div>
 </div>
+
+<div id="popupSubscribe">
+    <div class="container">
+        <div class="popupSubscribeContent">
+            <div class="mainPopupSubscribe">
+                <div class="popupSubscribeTitle">
+                    <span>Отлично!</span>
+                </div>
+                <div class="popupSubscribeMessage">
+                    <span>
+                       Каждную неделю мы будем отправлять Вам самые важные новости, оюзоры и самые креативные кейсы.
+                    </span>
+                </div>
+                <div class="popupSubscribeLink">
+                    <span>Вернуться</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script type="application/javascript" src="skripts/jquery-3.2.1.js"></script>
 <script type="application/javascript">
     $(function(){
@@ -592,10 +613,18 @@
             $(this).hide();
         });
 
+        $('.subscribeButton').on('click', function() {
+            $('#popupSubscribe').show();
+        });
+
+        $('.popupSubscribeLink').on('click', function() {
+            $('#popupSubscribe').hide();
+        });
+
         $(window).scroll(function(){
 
             var top = window.pageYOffset;
-
+            var left = $('.mainContent')[0].getBoundingClientRect().left;
             var cl = elem[0].className;
             if (top >= 116) {
                 if ((cl.indexOf('fixedMenu') == -1)){

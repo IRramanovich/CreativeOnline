@@ -77,7 +77,6 @@ header .row {
 .fixedMenu {
     position: fixed;
     top: 0px;
-    left: 39px;
     z-index: 1000;
     max-width: 1140px;
     background-color: #ffffff;
@@ -1096,8 +1095,50 @@ footer .row {
     background-image: url("../assets/img/icon/instagramIconWhite.png");
 }
 
+/* popupSubscribe */
 
+#popupSubscribe {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #edf5fd;
+    background-image: url("../assets/img/subscribePopupLogo.png");
+    background-repeat: no-repeat;
+    background-position: 80% top;
+    z-index: 1100;
+    border-bottom: 3px solid #14ab00;
+}
 
+.popupSubscribeContent {
+    font-family: 'ProximaNova-Regular';
+    margin-top: 40%;
+}
+
+.mainPopupSubscribe {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.popupSubscribeTitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.popupSubscribeMessage {
+
+}
+
+.popupSubscribeLink {
+    color: #989898;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
 
 
 
