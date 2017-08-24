@@ -1,0 +1,43 @@
+.popupSubscribe {}
+.popupSubscribeContent {
+    margin-top: 25%;
+}
+.mainPopupSubscribe {
+    width: 800px;
+}
+.popupSubscribeTitle {
+    font-family: 'ProximaNovaBold';
+    font-size: 38px;
+}
+.popupSubscribeTitle span {}
+.popupSubscribeMessage {
+    font-size: 18px;
+}
+.popupSubscribeMessage span {}
+.newsItemConatainer {
+    width: 370px;
+    margin: auto;
+    background-color: #fefefe;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+.newsItem {}
+.newsItemContent {}
+.newsItemHeader {}
+.newsItemHeader span {}
+.newsItemBody {}
+.newsItemImage {}
+.newsItemImage img {}
+.newsItemTextContainer {}
+.newsItemMainText {}
+.newsItemMainText span {}
+.newsItemFooterText {}
+.newsItemFooterText span {}
+.newsItemControls {}
+.newsItemCloseButton {}
+.newsItemSettingsButton {}
+.subscribePopupButtonContainer {}
+.subscribePopupButton {}
+.subscribePopupButton span {}
+.popupSubscribeLink {}
+.popupSubscribeLink span {}

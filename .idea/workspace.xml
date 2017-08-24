@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c7bf80-8d42-47ed-8e47-7c73ad6e3fc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/statia_inside.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/statia_inside_2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statia_inside_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statia_inside_2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/statia_inside_3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/statia_inside_4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/uvedomlenia.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statia_inside_3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statia_inside_4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uvedomlenia.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.html" afterPath="$PROJECT_DIR$/project.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,61 +20,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="statia_inside_3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/statia_inside_3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="951" column="32" lean-forward="true" selection-start-line="951" selection-start-column="32" selection-end-line="951" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="95" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="700" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statia_inside_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statia_inside_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="686" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="694" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="statia_inside.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/statia_inside.css">
+      <file leaf-file-name="project.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="827">
-              <caret line="85" column="1" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="85" selection-end-column="1" />
+              <caret line="96" column="9" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="96" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statia_inside_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statia_inside_2.html">
+      <file leaf-file-name="uvedomlenia.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uvedomlenia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="680">
+              <caret line="70" column="50" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statia_inside_2.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/statia_inside_2.css">
+      <file leaf-file-name="uvedomlenia.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/uvedomlenia.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photo-cifra-days.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photo-cifra-days.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="162" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="644" selection-end-column="7" />
+            <state relative-caret-position="357">
+              <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -80,18 +65,8 @@
       <file leaf-file-name="project.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/project.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
+            <state relative-caret-position="912">
               <caret line="174" column="19" lean-forward="false" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="221" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -154,13 +129,19 @@
         <option value="$PROJECT_DIR$/photo-cifra-days.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/project.css" />
-        <option value="$PROJECT_DIR$/project.html" />
         <option value="$PROJECT_DIR$/css/photo.css" />
         <option value="$PROJECT_DIR$/statia_inside_1.html" />
         <option value="$PROJECT_DIR$/css/statia_inside.css" />
         <option value="$PROJECT_DIR$/statia_inside_2.html" />
         <option value="$PROJECT_DIR$/css/satia_inside_2.css" />
         <option value="$PROJECT_DIR$/css/statia_inside_2.css" />
+        <option value="$PROJECT_DIR$/statia_inside_3.html" />
+        <option value="$PROJECT_DIR$/css/statia_inside_3.css" />
+        <option value="$PROJECT_DIR$/project.html" />
+        <option value="$PROJECT_DIR$/statia_inside_4.html" />
+        <option value="$PROJECT_DIR$/css/statia_inside_4.css" />
+        <option value="$PROJECT_DIR$/uvedomlenia.html" />
+        <option value="$PROJECT_DIR$/css/uvedomlenia.css" />
       </list>
     </option>
   </component>
@@ -211,37 +192,19 @@
             <path>
               <item name="page-proofs" type="b2602c69:ProjectViewProjectNode" />
               <item name="page-proofs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="page-proofs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="page-proofs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="page-proofs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="page-proofs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="icon" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="page-proofs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="page-proofs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="Z:/home/photo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -297,6 +260,7 @@
       <workItem from="1503393991554" duration="14657000" />
       <workItem from="1503463243579" duration="21000" />
       <workItem from="1503463265852" duration="12124000" />
+      <workItem from="1503581609414" duration="6903000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1502651107242</created>
@@ -309,7 +273,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125662000" />
+    <option name="totallyTimeSpent" value="132565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -349,54 +313,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="101" lean-forward="false" selection-start-line="8" selection-start-column="101" selection-end-line="8" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/font-Merriweather.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/font-ProximaNova.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10064">
-          <caret line="592" column="25" lean-forward="false" selection-start-line="592" selection-start-column="25" selection-end-line="592" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="101" lean-forward="false" selection-start-line="8" selection-start-column="101" selection-end-line="8" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6171">
-          <caret line="363" column="0" lean-forward="false" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18802">
@@ -639,24 +555,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/photo-cifra-days.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="2754">
           <caret line="162" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="644" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="338" column="0" lean-forward="false" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="951" column="32" lean-forward="true" selection-start-line="951" selection-start-column="32" selection-end-line="951" selection-end-column="32" />
+        <state relative-caret-position="16167">
+          <caret line="951" column="32" lean-forward="false" selection-start-line="951" selection-start-column="32" selection-end-line="951" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -666,50 +574,25 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/project.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="174" column="19" lean-forward="false" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/photo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="184" column="32" lean-forward="true" selection-start-line="147" selection-start-column="0" selection-end-line="184" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/font-ProximaNova.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/statia_inside_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="686" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="694" selection-end-column="7" />
+        <state relative-caret-position="11662">
+          <caret line="686" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="694" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/statia_inside.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="85" column="1" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="85" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statia_inside_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="1445">
+          <caret line="85" column="1" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="85" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -726,6 +609,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statia_inside_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="693" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statia_inside_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="95" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="700" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/project.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="174" column="19" lean-forward="false" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/statia_inside_4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statia_inside_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/statia_inside_3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="85" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="96" column="9" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="96" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-ProximaNova.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uvedomlenia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="70" column="50" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/uvedomlenia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding />
         </state>
       </provider>
