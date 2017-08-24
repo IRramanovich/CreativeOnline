@@ -21,19 +21,41 @@
     border: 1px solid #d1d1d1;
     box-shadow: 0 0 2px rgba(0,0,0,0.3);
 }
-.newsItem {}
-.newsItemContent {}
+.newsItem {
+    overflow: hidden;
+}
+.newsItem div {
+    display: inline-block;
+
+}
+.newsItemContent {
+    width: 90%;
+    float: left;
+}
+.newsItemContent {
+
+}
 .newsItemHeader {}
 .newsItemHeader span {}
 .newsItemBody {}
-.newsItemImage {}
+.newsItemBody div{
+    display: inline-block;
+}
+.newsItemImage {
+    width: 20%;
+    float: left;
+}
 .newsItemImage img {}
-.newsItemTextContainer {}
+.newsItemTextContainer {
+    width: 80%;
+}
 .newsItemMainText {}
 .newsItemMainText span {}
 .newsItemFooterText {}
 .newsItemFooterText span {}
-.newsItemControls {}
+.newsItemControls {
+    width: 10%;
+}
 .newsItemCloseButton {}
 .newsItemSettingsButton {}
 .subscribePopupButtonContainer {}

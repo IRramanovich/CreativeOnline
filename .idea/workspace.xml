@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c7bf80-8d42-47ed-8e47-7c73ad6e3fc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/statia_inside_3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/statia_inside_4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/uvedomlenia.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statia_inside_3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statia_inside_4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uvedomlenia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.html" afterPath="$PROJECT_DIR$/project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/uvedomlenia.css" afterPath="$PROJECT_DIR$/css/uvedomlenia.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uvedomlenia.html" afterPath="$PROJECT_DIR$/uvedomlenia.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +39,8 @@
       <file leaf-file-name="uvedomlenia.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uvedomlenia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="70" column="50" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="50" />
+            <state relative-caret-position="289">
+              <caret line="47" column="82" lean-forward="false" selection-start-line="47" selection-start-column="82" selection-end-line="47" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -55,8 +49,8 @@
       <file leaf-file-name="uvedomlenia.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/uvedomlenia.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="544">
+              <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -260,7 +254,7 @@
       <workItem from="1503393991554" duration="14657000" />
       <workItem from="1503463243579" duration="21000" />
       <workItem from="1503463265852" duration="12124000" />
-      <workItem from="1503581609414" duration="6903000" />
+      <workItem from="1503581609414" duration="8046000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1502651107242</created>
@@ -273,7 +267,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132565000" />
+    <option name="totallyTimeSpent" value="133708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -681,16 +675,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uvedomlenia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="70" column="50" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="50" />
+        <state relative-caret-position="289">
+          <caret line="47" column="82" lean-forward="false" selection-start-line="47" selection-start-column="82" selection-end-line="47" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/uvedomlenia.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="544">
+          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding />
         </state>
       </provider>
