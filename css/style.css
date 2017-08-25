@@ -1140,7 +1140,7 @@ footer .row {
     cursor: pointer;
 }
 
-
+@import url("adaptive/style_minwidth_992px.css");
 
 
 
