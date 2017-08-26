@@ -1,3 +1,20 @@
 @media (min-width: 992px) {
-
+    .logo {
+        height: 80px;
+    }
+    .mainMenu li {
+        padding: 13px 14px;
+    }
+    .menuButton {
+        left: 0;
+    }
+    .weather {
+        font-size: 8px;
+    }
+    .weather i {
+        bottom: 1px;
+    }
+    .weather span {
+        font-size: 11px;
+    }
 }
