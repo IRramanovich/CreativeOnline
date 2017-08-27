@@ -1,4 +1,4 @@
-@media (min-width: 992px) {
+@media (max-width: 1200px) and (min-width: 992px) {
     .logo {
         height: 80px;
     }
@@ -16,5 +16,43 @@
     }
     .weather span {
         font-size: 11px;
+    }
+    .exchangeRate {
+        margin-right: 14px;
+    }
+    .subMenuMiddle {
+        margin-right: 10px;
+    }
+    .single .itemTitle {
+        width: 100%;
+    }
+    .medium .itemContent {
+        bottom: 1%;
+    }
+    .specialProgestContainer .itemContent {
+        bottom: 34%;
+    }
+    .specialProgestContainer .topRow {
+        margin-bottom: 50%;
+    }
+    .specProgectContent .itemContent {
+        left: 57%;
+        bottom: 23%;
+    }
+    .subscribeInputText {
+        width: 53%;
+    }
+    .subscribeContentLibel {
+        font-size: 15px;
+    }
+    .middleFooter {
+        font-size: 9px;
+        padding-top: 25px;
+    }
+    .menuItem {
+        width: 70%
+    }
+    .fixedMenu {
+        max-width: 960px;
     }
 }
