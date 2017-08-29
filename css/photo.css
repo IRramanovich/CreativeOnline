@@ -184,4 +184,140 @@
 .recomindationArticleItem .header{}
 .recomindationArticleItem .eye{}
 
+@media (max-width: 992px) {
+    .photoOfDayColumn {
+        width: 100%;
+    }
+    .photoOfDayContent .rigthButton {
+        left: 94%;
+        /*right: 0px;*/
+        top: 360px;
+    }
+    .photoOfDayContent .leftButton {
+        top: 360px;
+    }
+    .phtoOfDayImg {
+        padding-top: 130px;
+    }
+    .topLabel {
+        left: 390px;
+        background-color: #ffffff;
+        color: #000;
+        font-size: 40px;
+        font-family: 'ProximaNovaBold';
+        font-weight: bold;
+    }
+    .daysLine {
+        margin-top: 30px;
+        font-size: 30px;
+        position: absolute;
+        top: 35px;
+    }
+    .daysLineItem {
+        width: 67px;
+    }
+    .daysLineItem.desctop {
+        display: none;
+    }
+    .activeDay {
+        width: 230px;
+    }
+    .headerPhotoOfDay {
+        width: 80%;
+        font-size: 55px;
+        line-height: 55px;
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+    .logoSeparator {
+        width: 400px;
+        height: 100px;
+    }
+    .socialMediaSubscribeContainer {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .socialMediaSubscribeHeader {
+        margin-bottom: 30px;
+    }
+    .socialMediaSubscribeButtons {
+        height: 80px;
+        width: 90%;
+    }
+    .socialMediaSubscribeButtons div {
+        height: 70px;
+        font-size: 40px;
+    }
+    .authorPhoto {
+        display: none;
+    }
+    .photoTags {
+        width: 85%;
+        font-size: 25px;
+        border-bottom: none;
+    }
+    .photoTags span {
+        margin-right:35px;
+    }
+    .recomindationArticle {
+        width: 90%;
+    }
+    .recomindationArticle h2 {
+        padding-left: 0px;
+        font-size: 45px;
+    }
+    .recomindationArticleContent {
+        margin-top: 30px;
+    }
+    .recomindationArticleItem {
+        height: 40px;
+        padding-left: 59px;
+        margin-bottom: 51px;
+    }
+    .recomindationArticleItem .header {
+        font-size: 30px;
+
+        line-height: 30px;
+    }
+    .recomindationArticleItem .eye {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

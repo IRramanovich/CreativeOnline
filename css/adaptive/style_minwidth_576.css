@@ -1,4 +1,7 @@
 @media (max-width: 992px) {
+    .row {
+        /*width: 100%;*/
+    }
     .container {
         padding: 0;
         width: 100%;
@@ -18,9 +21,6 @@
     .businessContent,
     .casesContentn {
         display: none;
-    }
-    .specProgectContent .itemContent {
-        left: 265px;
     }
     #mainMenuContainer {
         background-color: #58b42b;
@@ -75,7 +75,7 @@
         width: 100%;
         min-height: 459px;
         position: relative;
-        padding-right: 15px;
+        padding-right: 0px;
         padding-top: 15px;
         margin-right: 0.01px;
     }
@@ -198,12 +198,6 @@
 
     }
 
-    .specProgectContent {
-        display: none;
-    }
-    .specialProgestContainer {
-        display: none;
-    }
     .bunnerContainer {
         display: none;
     }
@@ -326,20 +320,209 @@
     }
     span.nexPage {
         padding-top: 0px;
-        font-size: 60px;
-        position: relative;
-        top: 9px;
+        font-size: 52px;
         background-color: #535353;
     }
     span.endPage {
         padding-top: 0;
-        font-size: 60px;
-        position: relative;
-        top: 9px;
+        font-size: 52px;
     }
 
+    .bestForMonth {
+        position: relative;
+        padding-top: 1130px;
+    }
+    .bestForMonth h2 {
+        font-size: 50px;
+        text-transform: uppercase;
+        font-family: 'ProximaNovaBold';
+        margin-left: 80px;
+    }
+    .bestMonthContainer {
+        max-width: 100%;
+        flex: 100%;
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    .bestMonthSingle {
+        flex: 50%;
+        width: 50%;
+        max-width: 50%;
+    }
+    .bestMonthSingle .itemImg {}
+    .bestMonthSingle .itemImg img {
+        width: 100%;
+    }
+    .bestMonthSingle .itemTitle {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .bestMonthSingle .itemRow div {
+        display: inline-block;
+    }
+    .bestMonthSingle .itemTags {
+        margin-right: 10px;
+        color: #49b744;
+        text-transform: uppercase;
+    }
+    .bestMonthSingle .itemTags span {
+        font-size: 25px;
+        font-family: 'ProximaNovaBold';
+    }
+    .bestMonthSingle .itemViews {
+        color: #bbbbbb;
+        width: 97px;
+        text-align: right;
+        background-image: url(../../assets/img/icon/eyeGrey.png);
+        background-repeat: no-repeat;
+        background-position: left 14px;
+        background-size: 27px;
+    }
+    .specialProgestContainer {
+        position: absolute;
+        left: 0px;
+        top: 10px;
+        max-width: 100%;
+        min-height: 1030px;
+        padding: 10px 60px;
+    }
+    .specialProgestContainer img {
+        width: 100%;
+    }
+    .specialProgestContainer .itemContent {
+        width: 87%;
+        bottom: 60px;
+    }
+    .specialProgestContainer .topRow {
+        text-align: center;
+        margin-bottom: 500px;
+    }
+    .specialProgestContainer .itemTags {
+        width: 100%;
+    }
+    .specialProgestContainer .itemDate {
+        text-align: center;
+    }
+    .specialProgestContainer .itemViews {
+        width: 14%;
+        background-position: left 9px;
+    }
 
-    .bestMonthContainer 
+    .specProgectContent {
+        margin-top: 50px;
+    }
+    .specProgectContent img {
+        width: 100%;
+    }
+    .specProgectContent .itemContent {
+        display: none;
+    }
+
+    .socialMedia {
+        flex: 100%;
+        width: 100%;
+        max-width: 100%;
+        border-bottom: 4px solid #49b744;
+    }
+    .socialLabel {
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .socialButtonContainer {
+        overflow: hidden;
+        width: 37%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .socialButtonContainer div {
+        width: 60px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        float: left;
+    }
+    .facebook {
+        background-image: url(../../assets/img/icon/facebookIcon.png);
+        margin-right: 80px;
+    }
+    .tweeter {
+        background-image: url(../../assets/img/icon/twetterIcon.png);
+        margin-right: 100px;
+    }
+    .instagram {
+        background-image: url(../../assets/img/icon/instagramIcon.png);
+    }
+
+    .footerLogo {
+        display: none;
+    }
+
+    .subscribeContainer {
+        flex: 100%;
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .subscriberLabel {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .subsscribeContent {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .subscribeInputText {
+        width: 68%;
+        height: 60px;
+        margin: 10px;
+        border: 2px solid #000000;
+        font-size: 30px;
+    }
+    .subscribeButton {
+        background-color: #000000;
+        color: #ffffff;
+        border: none;
+        width: 29%;
+        height: 60px;
+        font-size: 30px;
+    }
+    .subscribeContentLibel {
+        display: none;
+    }
+    .subscribeContentLibel span {
+        color: #0f8000;
+    }
+
+    footer {
+        background-color: #000000;
+        color: #737d92;
+    }
+    .leftFooter {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 20px;
+        text-align: center;
+        max-width: 100%;
+        flex: 100%;
+    }
+    .middleFooter {
+        display: none;
+    }
+    .rightFooter {
+        display: none;
+    }
+
+    .menuContent {
+        display: none;
+    }
+    #popupSubscribe {
+        display: none;
+    }
 }
 
 

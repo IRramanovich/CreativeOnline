@@ -250,7 +250,22 @@
     font-size: 12px;
     font-weight: bold;
 }
-
+@media (max-width: 992px) {
+    .articleInsideColumn {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .articleInsideHeader .topRow {
+        max-width: 195px;
+    }
+    .articleInsideHeader .itemLabel {
+        width: 40px;
+    }
+    .articleInsideHeader .itemDate {
+        font-size: 20px;
+    }
+}
 
 
 
