@@ -523,6 +523,99 @@
     #popupSubscribe {
         display: none;
     }
+
+
+    /* full menu */
+    #fullMenu {
+        display: none;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #2b2d32;
+        background-image: url("../../assets/img/fullMenuLogo.png");
+        background-repeat: no-repeat;
+        background-position: 20% top;
+        z-index: 1100;
+        border-bottom: 3px solid #14ab00;
+    }
+
+    .menuContent {
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .fullmenuItem {
+        cursor: pointer;
+        color: #ffffff;
+        font-family: 'ProximaNova-Regular';
+    }
+
+    .mainFullMenu {
+        margin-top: 50px;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'ProximaNovaBold';
+    }
+
+    .mainFullMenu .fullmenuItem {
+    }
+
+    .subFullMenu {
+        margin-top: 40px;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .subFullMenu .fullmenuItem {
+    }
+
+    .litleFullMenu {
+        margin-top: 40px;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .litleFullMenu .fullmenuItem {
+    }
+
+    .socialFullMenu {
+        overflow: hidden;
+        width: 194px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .socialFullMenu div {
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        float: left;
+    }
+
+    .socialFullMenu .facebook {
+        background-image: url("../assets/img/icon/facebookIconWhite.png");
+        margin-right: 44px;
+    }
+
+    .socialFullMenu .tweeter {
+        background-image: url("../assets/img/icon/twetterIconWhite.png");
+        margin-right: 60px;
+    }
+
+    .socialFullMenu .instagram {
+        background-image: url("../assets/img/icon/instagramIconWhite.png");
+    }
+
+    .fixedMenu {
+        position: fixed;
+        top: 0px;
+        z-index: 1000;
+        max-width: 1140px;
+        background-color: #ffffff;
+    }
 }
 
 

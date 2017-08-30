@@ -15,6 +15,7 @@
 
     .row {
         margin-bottom: 20px;
+        padding-right: 0px;
     }
 
     .mainContent .row {
@@ -227,7 +228,7 @@
     }
 
     .item {
-        width: 24%;
+        width: 24.9%;
         min-height: 459px;
         position: relative;
         padding-right: 15px;
@@ -556,7 +557,8 @@
 
     /* heading */
     .heading .row {
-        padding: 0 15px;
+        padding: 0;
+        padding-left: 15px;
     }
 
     .heading .row h2 {
