@@ -251,6 +251,9 @@
     font-weight: bold;
 }
 @media (max-width: 992px) {
+    .row {
+         /*width: 100%;*/
+    }
     .articleInsideColumn {
         width: 100%;
         padding-left: 0;
@@ -258,6 +261,7 @@
     }
     .articleInsideHeader .topRow {
         max-width: 195px;
+        margin-bottom: 130px;
     }
     .articleInsideHeader .itemLabel {
         width: 40px;
@@ -265,6 +269,108 @@
     .articleInsideHeader .itemDate {
         font-size: 20px;
     }
+    .articleInsideHeader .itemTags {
+        width: 135px;
+    }
+    .articleInsideHeader .itemTags span {
+        font-size: 25px;
+    }
+    .articleInsideHeader .itemTitle {
+        width: 80%;
+        line-height: 55px;
+    }
+    .articleInsideHeader .itemTitle span{
+        font-size: 60px;
+    }
+    .articleInsideHeader .itemDescription {
+        width: 90%;
+        font-size: 35px;
+        line-height: 35px;
+        padding-bottom: 36px;
+    }
+    .articleInsideHeader .itemDescription span {}
+    .articleInsideHeader .itemViews {
+        width: 100px;
+        margin-bottom: 30px;
+    }
+    .articleInsideHeader .itemViews span {
+        font-size: 25px;
+        color: #000000;
+    }
+
+    .articleInsideContent {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .articleImgLabel {
+        font-size: 20px;
+    }
+    .articleInsideContentText h1 {
+        font-size: 40px;
+    }
+    .articleInsideContentText h2 {
+        font-size: 35px;
+    }
+    .articleInsideContentText h3,
+    .articleInsideContentText h4 {
+        font-size: 32px;
+        padding-left: 20px;
+    }
+    .logoSeparator {
+        width: 400px;
+        height: 100px;
+    }
+    .socialMediaSubscribeContainer {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .socialMediaSubscribeHeader {
+        margin-bottom: 30px;
+    }
+    .socialMediaSubscribeButtons {
+        height: 80px;
+        width: 90%;
+    }
+    .socialMediaSubscribeButtons div {
+        height: 70px;
+        font-size: 40px;
+    }
+    .authorPhoto {
+        display: none;
+    }
+    .photoTags {
+        width: 85%;
+        font-size: 25px;
+        border-bottom: none;
+    }
+    .photoTags span {
+        margin-right:35px;
+    }
+    .recomindationArticle {
+        width: 90%;
+    }
+    .recomindationArticle h2 {
+        padding-left: 0px;
+        font-size: 45px;
+    }
+    .recomindationArticleContent {
+        margin-top: 30px;
+    }
+    .recomindationArticleItem {
+        height: 40px;
+        padding-left: 59px;
+        margin-bottom: 51px;
+    }
+    .recomindationArticleItem .header {
+        font-size: 30px;
+
+        line-height: 30px;
+    }
+    .recomindationArticleItem .eye {
+        display: none;
+    }
+
 }
 
 
